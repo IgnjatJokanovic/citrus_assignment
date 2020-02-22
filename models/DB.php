@@ -1,7 +1,7 @@
 <?php
     namespace Models;
     use PDO;
-    include_once('settings.php');
+    include_once(realpath($_SERVER["DOCUMENT_ROOT"]).'/citrus_assignment/settings.php');
     class DB
     {
         private static $instance = null;
